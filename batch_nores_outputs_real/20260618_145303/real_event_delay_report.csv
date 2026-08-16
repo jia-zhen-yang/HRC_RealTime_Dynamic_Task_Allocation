@@ -1,0 +1,8 @@
+﻿step_idx,failure_type,csv_delay_time,actual_incremental_delay,dynamic_makespan_after_event,target_task,duration_before,duration_after,standard_duration,actual_delay_vs_standard_after,t1,t2,observed_order_extra_delay,released_previous_delay
+1,delay,1.7319,1.7400000000000002,69.21,18,3.46,5.2,3.46,1.7400000000000002,,,,
+2,delay,3.4638,3.46,72.67,18,5.2,8.66,3.46,5.2,,,,
+3,delay,6.9276,6.93,76.98,18,8.66,15.59,3.46,12.129999999999999,,,,
+4,delay,6.9276,6.920000000000002,82.93,18,15.59,22.51,3.46,19.05,,,,
+5,delay,6.9276,6.93,89.86,18,22.51,29.44,3.46,25.98,,,,
+6,delay,2.9619,2.9700000000000006,87.24,21,5.92,8.89,5.92,2.9700000000000006,,,,
+7,delay,5.9238,5.92,93.16,21,8.89,14.81,5.92,8.89,,,,

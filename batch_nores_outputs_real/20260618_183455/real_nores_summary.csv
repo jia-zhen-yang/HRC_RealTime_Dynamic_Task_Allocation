@@ -1,0 +1,9 @@
+﻿step_idx,failure_type,decision_time,csv_delay_time,actual_incremental_delay,applied_nores_delay,delay_source,nores_makespan,dynamic_makespan_after_event,nores_minus_dynamic,target_task,t1,t2,earlier_task,later_task,order_base_duration,order_required_task_actual_duration,order_wrong_first_task_actual_duration,order_later_standard_duration,order_later_simulated_duration,order_later_duration_source,order_has_delay,compensation_mode,compensation_value,applied_compensation,compensation_base_duration,compensation_base_source,compensation_upper,order_fixed_compensation,order_compensation_upper,released_previous_delay,observed_order_extra_delay
+1,delay,36.37355184555054,2.9619,2.9700000000000006,0.0,real_gantt_duration_synchronized,72.30000000000001,72.35,-0.04999999999998295,13,,,,,,,,,,,,fixed,3.35,,,,,,,,
+2,delay,39.376628398895264,5.9238,5.92,0.0,real_gantt_duration_synchronized,78.22000000000001,78.28,-0.05999999999998806,13,,,,,,,,,,,,fixed,3.35,,,,,,,,
+3,delay,44.36576056480408,1.79,1.79,0.0,real_gantt_duration_synchronized,75.45,75.57,-0.11999999999999034,14,,,,,,,,,,,,fixed,3.35,,,,,,,,
+4,delay,46.170302867889404,3.58,3.579999999999999,0.0,real_gantt_duration_synchronized,79.03000000000002,79.15,-0.11999999999999034,14,,,,,,,,,,,,fixed,3.35,,,,,,,,
+5,delay,49.698686599731445,7.16,7.16,0.0,real_gantt_duration_synchronized,86.18780000000001,84.33,1.8578000000000117,14,,,,,,,,,,,,fixed,3.35,,,,,,,,
+6,delay,56.888261556625366,7.16,7.16,0.0,real_gantt_duration_synchronized,93.3478,90.13,3.217800000000011,14,,,,,,,,,,,,fixed,3.35,,,,,,,,
+7,delay,71.43829727172852,1.797,1.7999999999999998,0.0,real_gantt_duration_synchronized,89.43780000000002,86.33,3.107800000000026,19,,,,,,,,,,,,fixed,3.35,,,,,,,,
+8,delay,73.24973273277283,3.594,3.5900000000000007,0.0,real_gantt_duration_synchronized,93.02780000000003,89.92,3.107800000000026,19,,,,,,,,,,,,fixed,3.35,,,,,,,,

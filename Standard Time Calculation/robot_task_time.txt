@@ -1,0 +1,108 @@
+================ 任務完成時間總表 ================
+01. pick and place A | layout=LA | stack=1: 8.624 秒
+
+02. pick and place A | layout=LA | stack=2: 8.760 秒
+
+03. pick and place A | layout=LA | stack=3: 8.910 秒
+
+04. pick and place A | layout=LA | stack=4: 9.056 秒
+
+05. pick and place A | layout=LA | stack=5: 9.204 秒
+
+06. pick and place A | layout=LA | stack=6: 9.371 秒
+
+07. pick and place A | layout=LB | stack=1: 8.614 秒
+
+08. pick and place A | layout=LB | stack=2: 8.760 秒
+
+09. pick and place A | layout=LB | stack=3: 8.907 秒
+
+10. pick and place A | layout=LB | stack=4: 9.058 秒
+
+11. pick and place A | layout=LB | stack=5: 9.202 秒
+
+12. pick and place A | layout=LB | stack=6: 9.374 秒
+
+13. pick and place B | variant=Layout A | layout=LA | stack=1: 8.492 秒
+
+14. pick and place B | variant=Layout A | layout=LA | stack=2: 8.642 秒
+
+15. pick and place B | variant=Layout A | layout=LA | stack=3: 8.787 秒
+
+16. pick and place B | variant=Layout A | layout=LA | stack=4: 8.934 秒
+
+17. pick and place B | variant=Layout A | layout=LA | stack=5: 9.084 秒
+
+18. pick and place B | variant=Layout A | layout=LA | stack=6: 9.252 秒
+
+19. pick and place B | variant=Layout C | layout=LC | stack=1: 7.984 秒
+
+20. pick and place B | variant=Layout C | layout=LC | stack=2: 8.134 秒
+
+21. pick and place B | variant=Layout C | layout=LC | stack=3: 8.280 秒
+
+22. pick and place B | variant=Layout C | layout=LC | stack=4: 8.425 秒
+
+23. pick and place B | variant=Layout C | layout=LC | stack=5: 8.576 秒
+
+24. pick and place B | variant=Layout C | layout=LC | stack=6: 8.741 秒
+
+25. pick and place C | layout=LB | stack=1: 8.086 秒
+
+26. pick and place C | layout=LB | stack=2: 8.229 秒
+
+27. pick and place C | layout=LB | stack=3: 8.377 秒
+
+28. pick and place C | layout=LB | stack=4: 8.524 秒
+
+29. pick and place C | layout=LB | stack=5: 8.672 秒
+
+30. pick and place C | layout=LB | stack=6: 8.842 秒
+
+31. pick and place C | layout=LC | stack=1: 8.082 秒
+
+32. pick and place C | layout=LC | stack=2: 8.230 秒
+
+33. pick and place C | layout=LC | stack=3: 8.378 秒
+
+34. pick and place C | layout=LC | stack=4: 8.524 秒
+
+35. pick and place C | layout=LC | stack=5: 8.674 秒
+
+36. pick and place C | layout=LC | stack=6: 8.840 秒
+
+37. pick and place D | variant=Layout A | layout=LA | stack=1: 8.362 秒
+
+38. pick and place D | variant=Layout A | layout=LA | stack=2: 8.508 秒
+
+39. pick and place D | variant=Layout A | layout=LA | stack=3: 8.656 秒
+
+40. pick and place D | variant=Layout A | layout=LA | stack=4: 8.802 秒
+
+41. pick and place D | variant=Layout A | layout=LA | stack=5: 8.952 秒
+
+42. pick and place D | variant=Layout A | layout=LA | stack=6: 9.121 秒
+
+43. pick and place D | variant=Layout B/C | layout=LB | stack=1: 7.705 秒
+
+44. pick and place D | variant=Layout B/C | layout=LB | stack=2: 7.857 秒
+
+45. pick and place D | variant=Layout B/C | layout=LB | stack=3: 8.001 秒
+
+46. pick and place D | variant=Layout B/C | layout=LB | stack=4: 8.150 秒
+
+47. pick and place D | variant=Layout B/C | layout=LB | stack=5: 8.298 秒
+
+48. pick and place D | variant=Layout B/C | layout=LB | stack=6: 8.469 秒
+
+49. pick and place D | variant=Layout B/C | layout=LC | stack=1: 7.705 秒
+
+50. pick and place D | variant=Layout B/C | layout=LC | stack=2: 7.856 秒
+
+51. pick and place D | variant=Layout B/C | layout=LC | stack=3: 8.002 秒
+
+52. pick and place D | variant=Layout B/C | layout=LC | stack=4: 8.150 秒
+
+53. pick and place D | variant=Layout B/C | layout=LC | stack=5: 8.298 秒
+
+54. pick and place D | variant=Layout B/C | layout=LC | stack=6: 8.467 秒

@@ -1,0 +1,10 @@
+﻿step_idx,failure_type,decision_time,csv_delay_time,actual_incremental_delay,applied_nores_delay,delay_source,nores_makespan,dynamic_makespan_after_event,nores_minus_dynamic,target_task,t1,t2,earlier_task,later_task,order_base_duration,order_required_task_actual_duration,order_wrong_first_task_actual_duration,order_later_standard_duration,order_later_simulated_duration,order_later_duration_source,order_has_delay,compensation_mode,compensation_value,applied_compensation,compensation_base_duration,compensation_base_source,compensation_upper,order_fixed_compensation,order_compensation_upper,released_previous_delay,observed_order_extra_delay
+1,delay,26.35320281982422,1.797,1.7999999999999998,0.0,real_gantt_duration_synchronized,70.14,70.47,-0.3299999999999983,10,,,,,,,,,,,,fixed,3.35,,,,,,,,
+2,delay,28.093467950820923,3.594,3.6000000000000005,0.0,real_gantt_duration_synchronized,73.74000000000001,74.06,-0.3199999999999932,10,,,,,,,,,,,,fixed,3.35,,,,,,,,
+3,delay,31.72002625465393,7.188,7.1800000000000015,0.0,real_gantt_duration_synchronized,80.9238,78.96,1.9638000000000062,10,,,,,,,,,,,,fixed,3.35,,,,,,,,
+4,delay,38.8878071308136,7.188,7.189999999999998,0.0,real_gantt_duration_synchronized,88.1138,84.98,3.1337999999999937,10,,,,,,,,,,,,fixed,3.35,,,,,,,,
+5,delay,63.37325096130371,1.7319,1.7400000000000002,0.0,real_gantt_duration_synchronized,84.49380000000001,81.78,2.713800000000006,18,,,,,,,,,,,,fixed,3.35,,,,,,,,
+6,delay,65.10078382492065,3.4638,3.46,0.0,real_gantt_duration_synchronized,87.9538,85.25,2.703800000000001,18,,,,,,,,,,,,fixed,3.35,,,,,,,,
+7,delay,68.6239333152771,6.9276,6.93,0.0,real_gantt_duration_synchronized,94.8878,89.62,5.267799999999994,18,,,,,,,,,,,,fixed,3.35,,,,,,,,
+8,delay,85.98807406425476,1.8096,1.8099999999999996,0.0,real_gantt_duration_synchronized,90.28779999999998,91.38,-1.0922000000000196,22,,,,,,,,,,,,fixed,3.35,,,,,,,,
+9,delay,87.88873243331909,3.6192,3.620000000000001,0.0,real_gantt_duration_synchronized,93.90779999999998,95.0,-1.0922000000000196,22,,,,,,,,,,,,fixed,3.35,,,,,,,,

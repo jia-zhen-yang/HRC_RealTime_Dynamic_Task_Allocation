@@ -1,0 +1,5 @@
+﻿step_idx,failure_type,decision_time,start_kit_id,event_seed,completed_real_count,completed_before_time_origin_count,running_count,pending_standard_count,human_ready_time,robot_ready_time,best_makespan,recorded_dynamic_makespan,search_time,history_points,shake_count
+1,order,17.585569620132446,2,43,6,1,0,17,17.585569620132446,17.585569620132446,73.08556962013245,73.12,0.06901144981384277,80,7
+2,delay,38.66707944869995,4,44,12,1,2,9,40.32,42.1,70.01,70.02,0.03700971603393555,80,4
+3,delay,40.375242710113525,4,45,12,1,2,9,43.66,42.1,73.34,73.36,0.03772401809692383,80,4
+4,delay,43.668041467666626,4,46,13,1,1,9,50.34,43.668041467666626,78.55504146766663,78.57,0.04302048683166504,80,3

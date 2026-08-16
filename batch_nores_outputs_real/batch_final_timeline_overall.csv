@@ -1,0 +1,2 @@
+﻿case_count,failure_case_count,no_failure_case_count,dynamic_final_better_count,dynamic_final_better_rate,dynamic_final_better_percent,nores_final_better_count,nores_final_better_rate,nores_final_better_percent,tie_count,tie_rate,no_failure_tie_tolerance_seconds,failure_case_tolerance_seconds,avg_final_nores_minus_dynamic
+76,71,5,46,0.6052631578947368,60.526315789473685,25,0.32894736842105265,32.89473684210527,5,0.06578947368421052,0.1,0.0,1.272973684210525

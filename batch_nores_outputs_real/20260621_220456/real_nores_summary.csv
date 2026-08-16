@@ -1,0 +1,11 @@
+﻿step_idx,failure_type,decision_time,csv_delay_time,actual_incremental_delay,applied_nores_delay,delay_source,nores_makespan,dynamic_makespan_after_event,nores_minus_dynamic,target_task,t1,t2,earlier_task,later_task,order_base_duration,order_required_task_actual_duration,order_wrong_first_task_actual_duration,order_later_standard_duration,order_later_simulated_duration,order_later_duration_source,order_has_delay,compensation_mode,compensation_value,applied_compensation,compensation_base_duration,compensation_base_source,compensation_upper,order_fixed_compensation,order_compensation_upper,released_previous_delay,observed_order_extra_delay
+1,delay,17.77207064628601,1.797,1.7999999999999998,0.0,real_gantt_duration_synchronized,74.72000000000001,74.97,-0.2499999999999858,8,,,,,,,,,,,,fixed,3.35,,,,,,,,
+2,delay,41.26554536819458,1.79,1.79,0.0,real_gantt_duration_synchronized,71.67,72.44,-0.769999999999996,14,,,,,,,,,,,,fixed,3.35,,,,,,,,
+3,delay,43.049452781677246,3.58,3.579999999999999,0.0,real_gantt_duration_synchronized,75.25000000000001,76.02,-0.7699999999999818,14,,,,,,,,,,,,fixed,3.35,,,,,,,,
+4,delay,47.21821165084839,1.6689,1.67,0.0,real_gantt_duration_synchronized,74.12,74.98,-0.8599999999999994,15,,,,,,,,,,,,fixed,3.35,,,,,,,,
+5,delay,48.86276721954346,3.3378,3.33,0.0,real_gantt_duration_synchronized,77.45,78.32,-0.8699999999999903,15,,,,,,,,,,,,fixed,3.35,,,,,,,,
+6,delay,52.28999972343445,6.6756,6.68,0.0,real_gantt_duration_synchronized,84.13000000000001,84.99,-0.8599999999999852,15,,,,,,,,,,,,fixed,3.35,,,,,,,,
+7,delay,65.52336287498474,1.797,1.7999999999999998,0.0,real_gantt_duration_synchronized,79.31,80.42,-1.1099999999999994,19,,,,,,,,,,,,fixed,3.35,,,,,,,,
+8,delay,67.30262160301208,3.594,3.5900000000000007,0.0,real_gantt_duration_synchronized,82.9,84.02,-1.1199999999999903,19,,,,,,,,,,,,fixed,3.35,,,,,,,,
+9,delay,76.29304909706116,1.797,1.7999999999999998,0.0,real_gantt_duration_synchronized,80.3,81.61,-1.3100000000000023,23,,,,,,,,,,,,fixed,3.35,,,,,,,,
+10,delay,81.07845950126648,1.8096,1.8099999999999996,0.0,real_gantt_duration_synchronized,81.44999999999999,82.83,-1.3800000000000097,22,,,,,,,,,,,,fixed,3.35,,,,,,,,

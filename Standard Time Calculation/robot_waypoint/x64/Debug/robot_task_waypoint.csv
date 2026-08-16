@@ -1,0 +1,973 @@
+task,variant,layout,stack,action,from,to,resolved_to,x,y,z
+
+# Task: pick and place A | Variant:  | Layout: LA | Stack: 1
+pick and place A,,LA,1,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,1,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.094
+pick and place A,,LA,1,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,1,M,OBJA_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,1,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place A,,LA,1,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,1,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LA | Stack: 2
+pick and place A,,LA,2,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,2,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.08
+pick and place A,,LA,2,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,2,M,OBJA_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,2,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place A,,LA,2,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,2,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LA | Stack: 3
+pick and place A,,LA,3,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,3,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.066
+pick and place A,,LA,3,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,3,M,OBJA_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,3,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place A,,LA,3,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,3,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LA | Stack: 4
+pick and place A,,LA,4,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,4,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.052
+pick and place A,,LA,4,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,4,M,OBJA_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,4,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place A,,LA,4,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,4,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LA | Stack: 5
+pick and place A,,LA,5,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,5,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.038
+pick and place A,,LA,5,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,5,M,OBJA_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,5,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place A,,LA,5,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,5,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LA | Stack: 6
+pick and place A,,LA,6,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,6,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.022
+pick and place A,,LA,6,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LA,6,M,OBJA_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,6,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place A,,LA,6,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place A,,LA,6,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LB | Stack: 1
+pick and place A,,LB,1,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,1,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.094
+pick and place A,,LB,1,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,1,M,OBJA_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,1,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place A,,LB,1,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,1,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LB | Stack: 2
+pick and place A,,LB,2,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,2,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.08
+pick and place A,,LB,2,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,2,M,OBJA_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,2,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place A,,LB,2,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,2,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LB | Stack: 3
+pick and place A,,LB,3,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,3,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.066
+pick and place A,,LB,3,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,3,M,OBJA_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,3,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place A,,LB,3,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,3,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LB | Stack: 4
+pick and place A,,LB,4,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,4,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.052
+pick and place A,,LB,4,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,4,M,OBJA_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,4,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place A,,LB,4,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,4,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LB | Stack: 5
+pick and place A,,LB,5,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,5,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.038
+pick and place A,,LB,5,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,5,M,OBJA_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,5,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place A,,LB,5,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,5,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LB | Stack: 6
+pick and place A,,LB,6,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,6,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.022
+pick and place A,,LB,6,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LB,6,M,OBJA_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,6,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place A,,LB,6,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place A,,LB,6,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LC | Stack: 1
+pick and place A,,LC,1,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,1,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.094
+pick and place A,,LC,1,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,1,M,OBJA_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,1,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place A,,LC,1,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,1,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LC | Stack: 2
+pick and place A,,LC,2,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,2,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.08
+pick and place A,,LC,2,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,2,M,OBJA_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,2,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place A,,LC,2,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,2,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LC | Stack: 3
+pick and place A,,LC,3,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,3,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.066
+pick and place A,,LC,3,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,3,M,OBJA_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,3,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place A,,LC,3,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,3,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LC | Stack: 4
+pick and place A,,LC,4,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,4,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.052
+pick and place A,,LC,4,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,4,M,OBJA_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,4,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place A,,LC,4,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,4,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LC | Stack: 5
+pick and place A,,LC,5,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,5,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.038
+pick and place A,,LC,5,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,5,M,OBJA_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,5,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place A,,LC,5,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,5,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place A | Variant:  | Layout: LC | Stack: 6
+pick and place A,,LC,6,R,AGENT,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,6,R,OBJA_TOP,OBJA,OBJA,-0.325,0.025,0.022
+pick and place A,,LC,6,M,OBJA,OBJA_TOP,OBJA_TOP,-0.325,0.025,0.15
+pick and place A,,LC,6,M,OBJA_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,6,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place A,,LC,6,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place A,,LC,6,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LA | Stack: 1
+pick and place B,Layout A,LA,1,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,1,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.094
+pick and place B,Layout A,LA,1,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,1,M,OBJB_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,1,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place B,Layout A,LA,1,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,1,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LA | Stack: 2
+pick and place B,Layout A,LA,2,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,2,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.08
+pick and place B,Layout A,LA,2,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,2,M,OBJB_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,2,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place B,Layout A,LA,2,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,2,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LA | Stack: 3
+pick and place B,Layout A,LA,3,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,3,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.066
+pick and place B,Layout A,LA,3,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,3,M,OBJB_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,3,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place B,Layout A,LA,3,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,3,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LA | Stack: 4
+pick and place B,Layout A,LA,4,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,4,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.052
+pick and place B,Layout A,LA,4,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,4,M,OBJB_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,4,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place B,Layout A,LA,4,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,4,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LA | Stack: 5
+pick and place B,Layout A,LA,5,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,5,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.038
+pick and place B,Layout A,LA,5,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,5,M,OBJB_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,5,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place B,Layout A,LA,5,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,5,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LA | Stack: 6
+pick and place B,Layout A,LA,6,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,6,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.022
+pick and place B,Layout A,LA,6,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LA,6,M,OBJB_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,6,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place B,Layout A,LA,6,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place B,Layout A,LA,6,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LB | Stack: 1
+pick and place B,Layout A,LB,1,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,1,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.094
+pick and place B,Layout A,LB,1,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,1,M,OBJB_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,1,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LB,1,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,1,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LB | Stack: 2
+pick and place B,Layout A,LB,2,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,2,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.08
+pick and place B,Layout A,LB,2,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,2,M,OBJB_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,2,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LB,2,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,2,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LB | Stack: 3
+pick and place B,Layout A,LB,3,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,3,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.066
+pick and place B,Layout A,LB,3,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,3,M,OBJB_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,3,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LB,3,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,3,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LB | Stack: 4
+pick and place B,Layout A,LB,4,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,4,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.052
+pick and place B,Layout A,LB,4,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,4,M,OBJB_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,4,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LB,4,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,4,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LB | Stack: 5
+pick and place B,Layout A,LB,5,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,5,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.038
+pick and place B,Layout A,LB,5,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,5,M,OBJB_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,5,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LB,5,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,5,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LB | Stack: 6
+pick and place B,Layout A,LB,6,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,6,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.022
+pick and place B,Layout A,LB,6,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LB,6,M,OBJB_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,6,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LB,6,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LB,6,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LC | Stack: 1
+pick and place B,Layout A,LC,1,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,1,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.094
+pick and place B,Layout A,LC,1,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,1,M,OBJB_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,1,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LC,1,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,1,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LC | Stack: 2
+pick and place B,Layout A,LC,2,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,2,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.08
+pick and place B,Layout A,LC,2,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,2,M,OBJB_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,2,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LC,2,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,2,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LC | Stack: 3
+pick and place B,Layout A,LC,3,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,3,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.066
+pick and place B,Layout A,LC,3,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,3,M,OBJB_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,3,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LC,3,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,3,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LC | Stack: 4
+pick and place B,Layout A,LC,4,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,4,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.052
+pick and place B,Layout A,LC,4,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,4,M,OBJB_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,4,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LC,4,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,4,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LC | Stack: 5
+pick and place B,Layout A,LC,5,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,5,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.038
+pick and place B,Layout A,LC,5,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,5,M,OBJB_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,5,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LC,5,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,5,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout A | Layout: LC | Stack: 6
+pick and place B,Layout A,LC,6,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,6,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.022
+pick and place B,Layout A,LC,6,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout A,LC,6,M,OBJB_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,6,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place B,Layout A,LC,6,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place B,Layout A,LC,6,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LA | Stack: 1
+pick and place B,Layout C,LA,1,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,1,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.094
+pick and place B,Layout C,LA,1,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,1,M,OBJB_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,1,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place B,Layout C,LA,1,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,1,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LA | Stack: 2
+pick and place B,Layout C,LA,2,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,2,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.08
+pick and place B,Layout C,LA,2,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,2,M,OBJB_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,2,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place B,Layout C,LA,2,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,2,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LA | Stack: 3
+pick and place B,Layout C,LA,3,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,3,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.066
+pick and place B,Layout C,LA,3,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,3,M,OBJB_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,3,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place B,Layout C,LA,3,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,3,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LA | Stack: 4
+pick and place B,Layout C,LA,4,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,4,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.052
+pick and place B,Layout C,LA,4,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,4,M,OBJB_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,4,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place B,Layout C,LA,4,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,4,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LA | Stack: 5
+pick and place B,Layout C,LA,5,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,5,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.038
+pick and place B,Layout C,LA,5,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,5,M,OBJB_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,5,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place B,Layout C,LA,5,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,5,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LA | Stack: 6
+pick and place B,Layout C,LA,6,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,6,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.022
+pick and place B,Layout C,LA,6,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LA,6,M,OBJB_TOP,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,6,M,T_TOP,T,LA_T,0,-0.29,0.04
+pick and place B,Layout C,LA,6,R,T,T_TOP,LA_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LA,6,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LB | Stack: 1
+pick and place B,Layout C,LB,1,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,1,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.094
+pick and place B,Layout C,LB,1,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,1,M,OBJB_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,1,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place B,Layout C,LB,1,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,1,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LB | Stack: 2
+pick and place B,Layout C,LB,2,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,2,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.08
+pick and place B,Layout C,LB,2,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,2,M,OBJB_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,2,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place B,Layout C,LB,2,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,2,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LB | Stack: 3
+pick and place B,Layout C,LB,3,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,3,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.066
+pick and place B,Layout C,LB,3,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,3,M,OBJB_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,3,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place B,Layout C,LB,3,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,3,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LB | Stack: 4
+pick and place B,Layout C,LB,4,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,4,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.052
+pick and place B,Layout C,LB,4,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,4,M,OBJB_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,4,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place B,Layout C,LB,4,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,4,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LB | Stack: 5
+pick and place B,Layout C,LB,5,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,5,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.038
+pick and place B,Layout C,LB,5,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,5,M,OBJB_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,5,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place B,Layout C,LB,5,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,5,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LB | Stack: 6
+pick and place B,Layout C,LB,6,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,6,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.022
+pick and place B,Layout C,LB,6,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LB,6,M,OBJB_TOP,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,6,M,T_TOP,T,LB_T,0,-0.29,0.04
+pick and place B,Layout C,LB,6,R,T,T_TOP,LB_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LB,6,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LC | Stack: 1
+pick and place B,Layout C,LC,1,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,1,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.094
+pick and place B,Layout C,LC,1,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,1,M,OBJB_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,1,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place B,Layout C,LC,1,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,1,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LC | Stack: 2
+pick and place B,Layout C,LC,2,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,2,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.08
+pick and place B,Layout C,LC,2,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,2,M,OBJB_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,2,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place B,Layout C,LC,2,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,2,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LC | Stack: 3
+pick and place B,Layout C,LC,3,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,3,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.066
+pick and place B,Layout C,LC,3,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,3,M,OBJB_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,3,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place B,Layout C,LC,3,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,3,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LC | Stack: 4
+pick and place B,Layout C,LC,4,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,4,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.052
+pick and place B,Layout C,LC,4,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,4,M,OBJB_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,4,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place B,Layout C,LC,4,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,4,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LC | Stack: 5
+pick and place B,Layout C,LC,5,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,5,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.038
+pick and place B,Layout C,LC,5,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,5,M,OBJB_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,5,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place B,Layout C,LC,5,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,5,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place B | Variant: Layout C | Layout: LC | Stack: 6
+pick and place B,Layout C,LC,6,R,AGENT,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,6,R,OBJB_TOP,OBJB,OBJB,-0.35,-0.075,0.022
+pick and place B,Layout C,LC,6,M,OBJB,OBJB_TOP,OBJB_TOP,-0.35,-0.075,0.15
+pick and place B,Layout C,LC,6,M,OBJB_TOP,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,6,M,T_TOP,T,LC_T,0,-0.29,0.04
+pick and place B,Layout C,LC,6,R,T,T_TOP,LC_T_TOP,0,-0.29,0.15
+pick and place B,Layout C,LC,6,R,T_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LA | Stack: 1
+pick and place C,,LA,1,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,1,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.094
+pick and place C,,LA,1,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,1,M,OBJC_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,1,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place C,,LA,1,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,1,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LA | Stack: 2
+pick and place C,,LA,2,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,2,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.08
+pick and place C,,LA,2,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,2,M,OBJC_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,2,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place C,,LA,2,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,2,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LA | Stack: 3
+pick and place C,,LA,3,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,3,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.066
+pick and place C,,LA,3,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,3,M,OBJC_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,3,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place C,,LA,3,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,3,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LA | Stack: 4
+pick and place C,,LA,4,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,4,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.052
+pick and place C,,LA,4,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,4,M,OBJC_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,4,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place C,,LA,4,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,4,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LA | Stack: 5
+pick and place C,,LA,5,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,5,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.038
+pick and place C,,LA,5,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,5,M,OBJC_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,5,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place C,,LA,5,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,5,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LA | Stack: 6
+pick and place C,,LA,6,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,6,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.022
+pick and place C,,LA,6,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LA,6,M,OBJC_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,6,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place C,,LA,6,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place C,,LA,6,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LB | Stack: 1
+pick and place C,,LB,1,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,1,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.094
+pick and place C,,LB,1,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,1,M,OBJC_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,1,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place C,,LB,1,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,1,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LB | Stack: 2
+pick and place C,,LB,2,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,2,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.08
+pick and place C,,LB,2,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,2,M,OBJC_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,2,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place C,,LB,2,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,2,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LB | Stack: 3
+pick and place C,,LB,3,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,3,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.066
+pick and place C,,LB,3,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,3,M,OBJC_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,3,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place C,,LB,3,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,3,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LB | Stack: 4
+pick and place C,,LB,4,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,4,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.052
+pick and place C,,LB,4,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,4,M,OBJC_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,4,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place C,,LB,4,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,4,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LB | Stack: 5
+pick and place C,,LB,5,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,5,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.038
+pick and place C,,LB,5,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,5,M,OBJC_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,5,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place C,,LB,5,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,5,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LB | Stack: 6
+pick and place C,,LB,6,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,6,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.022
+pick and place C,,LB,6,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LB,6,M,OBJC_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,6,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place C,,LB,6,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LB,6,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LC | Stack: 1
+pick and place C,,LC,1,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,1,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.094
+pick and place C,,LC,1,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,1,M,OBJC_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,1,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place C,,LC,1,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,1,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LC | Stack: 2
+pick and place C,,LC,2,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,2,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.08
+pick and place C,,LC,2,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,2,M,OBJC_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,2,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place C,,LC,2,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,2,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LC | Stack: 3
+pick and place C,,LC,3,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,3,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.066
+pick and place C,,LC,3,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,3,M,OBJC_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,3,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place C,,LC,3,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,3,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LC | Stack: 4
+pick and place C,,LC,4,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,4,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.052
+pick and place C,,LC,4,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,4,M,OBJC_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,4,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place C,,LC,4,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,4,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LC | Stack: 5
+pick and place C,,LC,5,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,5,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.038
+pick and place C,,LC,5,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,5,M,OBJC_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,5,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place C,,LC,5,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,5,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place C | Variant:  | Layout: LC | Stack: 6
+pick and place C,,LC,6,R,AGENT,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,6,R,OBJC_TOP,OBJC,OBJC,-0.225,-0.075,0.022
+pick and place C,,LC,6,M,OBJC,OBJC_TOP,OBJC_TOP,-0.225,-0.075,0.15
+pick and place C,,LC,6,M,OBJC_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,6,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place C,,LC,6,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place C,,LC,6,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LA | Stack: 1
+pick and place D,Layout A,LA,1,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,1,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.094
+pick and place D,Layout A,LA,1,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,1,M,OBJD_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,1,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place D,Layout A,LA,1,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,1,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LA | Stack: 2
+pick and place D,Layout A,LA,2,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,2,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.08
+pick and place D,Layout A,LA,2,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,2,M,OBJD_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,2,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place D,Layout A,LA,2,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,2,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LA | Stack: 3
+pick and place D,Layout A,LA,3,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,3,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.066
+pick and place D,Layout A,LA,3,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,3,M,OBJD_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,3,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place D,Layout A,LA,3,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,3,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LA | Stack: 4
+pick and place D,Layout A,LA,4,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,4,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.052
+pick and place D,Layout A,LA,4,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,4,M,OBJD_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,4,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place D,Layout A,LA,4,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,4,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LA | Stack: 5
+pick and place D,Layout A,LA,5,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,5,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.038
+pick and place D,Layout A,LA,5,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,5,M,OBJD_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,5,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place D,Layout A,LA,5,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,5,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LA | Stack: 6
+pick and place D,Layout A,LA,6,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,6,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.022
+pick and place D,Layout A,LA,6,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LA,6,M,OBJD_TOP,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,6,M,BR_TOP,BR,LA_BR,0.06,-0.36,0.04
+pick and place D,Layout A,LA,6,R,BR,BR_TOP,LA_BR_TOP,0.06,-0.36,0.15
+pick and place D,Layout A,LA,6,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LB | Stack: 1
+pick and place D,Layout A,LB,1,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,1,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.094
+pick and place D,Layout A,LB,1,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,1,M,OBJD_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,1,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LB,1,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,1,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LB | Stack: 2
+pick and place D,Layout A,LB,2,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,2,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.08
+pick and place D,Layout A,LB,2,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,2,M,OBJD_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,2,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LB,2,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,2,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LB | Stack: 3
+pick and place D,Layout A,LB,3,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,3,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.066
+pick and place D,Layout A,LB,3,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,3,M,OBJD_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,3,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LB,3,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,3,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LB | Stack: 4
+pick and place D,Layout A,LB,4,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,4,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.052
+pick and place D,Layout A,LB,4,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,4,M,OBJD_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,4,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LB,4,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,4,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LB | Stack: 5
+pick and place D,Layout A,LB,5,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,5,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.038
+pick and place D,Layout A,LB,5,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,5,M,OBJD_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,5,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LB,5,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,5,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LB | Stack: 6
+pick and place D,Layout A,LB,6,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,6,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.022
+pick and place D,Layout A,LB,6,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LB,6,M,OBJD_TOP,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,6,M,BR_TOP,BR,LB_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LB,6,R,BR,BR_TOP,LB_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LB,6,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LC | Stack: 1
+pick and place D,Layout A,LC,1,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,1,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.094
+pick and place D,Layout A,LC,1,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,1,M,OBJD_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,1,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LC,1,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,1,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LC | Stack: 2
+pick and place D,Layout A,LC,2,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,2,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.08
+pick and place D,Layout A,LC,2,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,2,M,OBJD_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,2,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LC,2,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,2,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LC | Stack: 3
+pick and place D,Layout A,LC,3,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,3,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.066
+pick and place D,Layout A,LC,3,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,3,M,OBJD_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,3,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LC,3,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,3,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LC | Stack: 4
+pick and place D,Layout A,LC,4,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,4,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.052
+pick and place D,Layout A,LC,4,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,4,M,OBJD_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,4,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LC,4,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,4,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LC | Stack: 5
+pick and place D,Layout A,LC,5,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,5,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.038
+pick and place D,Layout A,LC,5,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,5,M,OBJD_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,5,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LC,5,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,5,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout A | Layout: LC | Stack: 6
+pick and place D,Layout A,LC,6,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,6,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.022
+pick and place D,Layout A,LC,6,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout A,LC,6,M,OBJD_TOP,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,6,M,BR_TOP,BR,LC_BR,0.052,-0.36,0.04
+pick and place D,Layout A,LC,6,R,BR,BR_TOP,LC_BR_TOP,0.052,-0.36,0.15
+pick and place D,Layout A,LC,6,R,BR_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LA | Stack: 1
+pick and place D,Layout B/C,LA,1,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,1,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.094
+pick and place D,Layout B/C,LA,1,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,1,M,OBJD_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,1,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place D,Layout B/C,LA,1,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,1,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LA | Stack: 2
+pick and place D,Layout B/C,LA,2,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,2,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.08
+pick and place D,Layout B/C,LA,2,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,2,M,OBJD_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,2,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place D,Layout B/C,LA,2,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,2,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LA | Stack: 3
+pick and place D,Layout B/C,LA,3,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,3,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.066
+pick and place D,Layout B/C,LA,3,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,3,M,OBJD_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,3,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place D,Layout B/C,LA,3,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,3,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LA | Stack: 4
+pick and place D,Layout B/C,LA,4,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,4,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.052
+pick and place D,Layout B/C,LA,4,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,4,M,OBJD_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,4,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place D,Layout B/C,LA,4,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,4,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LA | Stack: 5
+pick and place D,Layout B/C,LA,5,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,5,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.038
+pick and place D,Layout B/C,LA,5,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,5,M,OBJD_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,5,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place D,Layout B/C,LA,5,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,5,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LA | Stack: 6
+pick and place D,Layout B/C,LA,6,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,6,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.022
+pick and place D,Layout B/C,LA,6,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LA,6,M,OBJD_TOP,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,6,M,BL_TOP,BL,LA_BL,-0.035,-0.36,0.04
+pick and place D,Layout B/C,LA,6,R,BL,BL_TOP,LA_BL_TOP,-0.035,-0.36,0.15
+pick and place D,Layout B/C,LA,6,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LB | Stack: 1
+pick and place D,Layout B/C,LB,1,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,1,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.094
+pick and place D,Layout B/C,LB,1,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,1,M,OBJD_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,1,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LB,1,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,1,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LB | Stack: 2
+pick and place D,Layout B/C,LB,2,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,2,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.08
+pick and place D,Layout B/C,LB,2,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,2,M,OBJD_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,2,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LB,2,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,2,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LB | Stack: 3
+pick and place D,Layout B/C,LB,3,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,3,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.066
+pick and place D,Layout B/C,LB,3,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,3,M,OBJD_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,3,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LB,3,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,3,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LB | Stack: 4
+pick and place D,Layout B/C,LB,4,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,4,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.052
+pick and place D,Layout B/C,LB,4,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,4,M,OBJD_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,4,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LB,4,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,4,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LB | Stack: 5
+pick and place D,Layout B/C,LB,5,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,5,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.038
+pick and place D,Layout B/C,LB,5,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,5,M,OBJD_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,5,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LB,5,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,5,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LB | Stack: 6
+pick and place D,Layout B/C,LB,6,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,6,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.022
+pick and place D,Layout B/C,LB,6,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LB,6,M,OBJD_TOP,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,6,M,BL_TOP,BL,LB_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LB,6,R,BL,BL_TOP,LB_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LB,6,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LC | Stack: 1
+pick and place D,Layout B/C,LC,1,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,1,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.094
+pick and place D,Layout B/C,LC,1,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,1,M,OBJD_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,1,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LC,1,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,1,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LC | Stack: 2
+pick and place D,Layout B/C,LC,2,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,2,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.08
+pick and place D,Layout B/C,LC,2,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,2,M,OBJD_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,2,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LC,2,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,2,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LC | Stack: 3
+pick and place D,Layout B/C,LC,3,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,3,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.066
+pick and place D,Layout B/C,LC,3,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,3,M,OBJD_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,3,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LC,3,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,3,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LC | Stack: 4
+pick and place D,Layout B/C,LC,4,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,4,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.052
+pick and place D,Layout B/C,LC,4,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,4,M,OBJD_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,4,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LC,4,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,4,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LC | Stack: 5
+pick and place D,Layout B/C,LC,5,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,5,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.038
+pick and place D,Layout B/C,LC,5,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,5,M,OBJD_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,5,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LC,5,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,5,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
+
+# Task: pick and place D | Variant: Layout B/C | Layout: LC | Stack: 6
+pick and place D,Layout B/C,LC,6,R,AGENT,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,6,R,OBJD_TOP,OBJD,OBJD,-0.325,-0.175,0.022
+pick and place D,Layout B/C,LC,6,M,OBJD,OBJD_TOP,OBJD_TOP,-0.325,-0.175,0.15
+pick and place D,Layout B/C,LC,6,M,OBJD_TOP,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,6,M,BL_TOP,BL,LC_BL,-0.052,-0.36,0.04
+pick and place D,Layout B/C,LC,6,R,BL,BL_TOP,LC_BL_TOP,-0.052,-0.36,0.15
+pick and place D,Layout B/C,LC,6,R,BL_TOP,AGENT,BOT,0,-0.23,0.15
