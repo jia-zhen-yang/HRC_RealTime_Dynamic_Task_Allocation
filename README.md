@@ -24,7 +24,7 @@ Adaptation 適應性調整
         ↓
 Execution 作業執行
 ```
-
+![System Architecture](assets/system_architecture.png)
 
 系統於作業期間持續掌握：
 
@@ -586,6 +586,7 @@ schedule_random.csv
 
 主程式負責將作業資訊與控制需求傳送至 Robot 與 Unity / HoloLens 端。
 
+![Communication Architecture](assets/communication_architecture.png)
 
 ---
 
