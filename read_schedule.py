@@ -4,7 +4,7 @@ import os
 from typing import Union
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # 獲得執行程式的路徑
-SCHEDULE_PATH = Path(BASE_DIR) / "schedule_test.csv"
+SCHEDULE_PATH = Path(BASE_DIR) / "schedule.csv"
 REQUIRED_COLS = ["ID", "command", "object", "zone", "agent", "status", "layout", "human_standard_time", "robot_standard_time", "actual_time"]
     
 def load_schedule_csv(csv_path: Union[str, Path] = SCHEDULE_PATH):

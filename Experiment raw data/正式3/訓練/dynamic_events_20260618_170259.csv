@@ -1,0 +1,2 @@
+﻿step_idx,failure_type,decision_time,frozen_task_ids,t,t1,t2,new_agent,delay_time,dynamic_task_ids
+1,delay,18.157680988311768,5 7 8 13 14 15 16,8,,,,1.797,13 14 15 16 5 8 7 6 9 11 10 12 17 20 18 19 21 22 23 24 1 2 4 3

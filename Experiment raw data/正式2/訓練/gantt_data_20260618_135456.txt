@@ -1,0 +1,297 @@
+﻿title: offline optimal schedule
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           3.58           3.58
+      15       robot           0.00           8.36           8.36
+      16       human           3.58           7.57           3.99
+       5       human           8.36          14.29           5.92
+       8       human          14.29          17.88           3.59
+       7       robot           8.36          16.59           8.23
+       6       human          17.88          21.34           3.46
+       9       human          21.34          27.27           5.92
+      11       robot          20.89          29.27           8.38
+      12       human          27.27          30.73           3.46
+      10       human          30.73          34.33           3.59
+      17       human          34.33          40.25           5.92
+      19       human          40.25          43.84           3.59
+      20       robot          33.72          42.25           8.52
+      18       human          43.84          47.31           3.46
+      21       human          47.31          53.23           5.92
+      22       human          53.23          56.85           3.62
+      23       human          56.85          60.44           3.59
+      24       robot          46.17          55.23           9.06
+       1       human          60.44          66.37           5.92
+       2       robot          59.17          68.37           9.20
+       4       human          66.37          69.96           3.59
+       3       human          69.96          73.58           3.62
+                                         makespan:          73.58
+
+title: dynamic scheduling 1
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           5.37           5.37
+      15       robot           0.00           8.36           8.36
+      16       human           5.37           9.36           3.99
+       5       human           9.36          15.29           5.92
+       8       human          15.29          18.88           3.59
+       7       robot           9.06          17.29           8.23
+       6       human          18.88          22.34           3.46
+       9       human          22.34          28.27           5.92
+      11       robot          21.89          30.27           8.38
+      12       human          28.27          31.73           3.46
+      10       human          31.73          35.33           3.59
+      17       human          35.33          41.25           5.92
+      19       human          41.25          44.84           3.59
+      20       robot          34.73          43.25           8.52
+      18       human          44.84          48.31           3.46
+      21       human          48.31          54.23           5.92
+      22       human          54.23          57.85           3.62
+      23       human          57.85          61.44           3.59
+      24       robot          47.17          56.23           9.06
+       1       human          61.44          67.37           5.92
+       2       robot          60.17          69.37           9.20
+       4       human          67.37          70.96           3.59
+       3       human          70.96          74.58           3.62
+                                         makespan:          74.58
+
+title: dynamic scheduling 2
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           8.36           8.36
+      16       human           4.34          10.33           5.99
+       5       human          10.33          16.25           5.92
+       8       human          16.25          19.85           3.59
+       7       robot          10.02          18.25           8.23
+       6       human          19.85          23.31           3.46
+       9       human          23.31          29.23           5.92
+      11       robot          22.86          31.23           8.38
+      12       human          29.23          32.70           3.46
+      10       human          32.70          36.29           3.59
+      17       human          36.29          42.22           5.92
+      19       human          42.22          45.81           3.59
+      20       robot          35.69          44.22           8.52
+      18       human          45.81          49.27           3.46
+      21       human          49.27          55.20           5.92
+      22       human          55.20          58.82           3.62
+      23       human          58.82          62.41           3.59
+      24       robot          48.14          57.20           9.06
+       1       human          62.41          68.33           5.92
+       2       robot          61.13          70.33           9.20
+       4       human          68.33          71.93           3.59
+       3       human          71.93          75.55           3.62
+                                         makespan:          75.55
+
+title: dynamic scheduling 3
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          18.87           8.89
+       7       robot          10.08          20.87          10.80
+       8       human          18.87          22.47           3.59
+       6       human          22.47          25.93           3.46
+       9       human          25.93          31.85           5.92
+      11       robot          25.48          33.85           8.38
+      12       human          31.85          35.32           3.46
+      10       human          35.32          38.91           3.59
+      17       human          38.91          44.84           5.92
+      19       human          44.84          48.43           3.59
+      20       robot          38.31          46.84           8.52
+      18       human          48.43          51.89           3.46
+      21       human          51.89          57.82           5.92
+      22       human          57.82          61.44           3.62
+      23       human          61.44          65.03           3.59
+      24       robot          50.76          59.82           9.06
+       1       human          65.03          70.96           5.92
+       2       robot          63.75          72.96           9.20
+       4       human          70.96          74.55           3.59
+       3       human          74.55          78.17           3.62
+                                         makespan:          78.17
+
+title: dynamic scheduling 4
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          17.35           7.36
+       7       robot          10.08          20.93          10.85
+       8       human          17.38          22.77           5.39
+       6       human          22.77          26.23           3.46
+       9       human          26.23          32.15           5.92
+      11       robot          25.78          34.15           8.38
+      12       human          32.15          35.62           3.46
+      10       human          35.62          39.21           3.59
+      17       human          39.21          45.14           5.92
+      19       human          45.14          48.73           3.59
+      20       robot          38.61          47.14           8.52
+      18       human          48.73          52.19           3.46
+      21       human          52.19          58.12           5.92
+      22       human          58.12          61.74           3.62
+      23       human          61.74          65.33           3.59
+      24       robot          51.06          60.12           9.06
+       1       human          65.33          71.26           5.92
+       2       robot          64.05          73.26           9.20
+       4       human          71.26          74.85           3.59
+       3       human          74.85          78.47           3.62
+                                         makespan:          78.47
+
+title: dynamic scheduling 5
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          17.35           7.36
+       7       robot          10.08          20.93          10.85
+       8       human          17.38          26.36           8.99
+       6       human          26.36          29.83           3.46
+       9       human          29.83          35.75           5.92
+      11       robot          29.37          37.75           8.38
+      12       human          35.75          39.21           3.46
+      10       human          39.21          42.81           3.59
+      17       human          42.81          48.73           5.92
+      19       human          48.73          52.32           3.59
+      20       robot          42.21          50.73           8.52
+      18       human          52.32          55.79           3.46
+      21       human          55.79          61.71           5.92
+      22       human          61.71          65.33           3.62
+      23       human          65.33          68.93           3.59
+      24       robot          54.65          63.71           9.06
+       1       human          68.93          74.85           5.92
+       2       robot          67.65          76.85           9.20
+       4       human          74.85          78.44           3.59
+       3       human          78.44          82.06           3.62
+                                         makespan:          82.06
+
+title: dynamic scheduling 6
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          17.35           7.36
+       7       robot          10.08          20.93          10.85
+       8       human          17.38          24.07           6.69
+       6       human          24.10          27.06           2.97
+       9       human          27.14          32.45           5.32
+      11       robot          29.38          39.00           9.62
+      12       human          32.47          35.38           2.90
+      10       human          35.40          40.79           5.39
+      17       human          40.79          46.72           5.92
+      19       human          46.72          50.31           3.59
+      20       robot          40.19          48.72           8.52
+      18       human          50.31          53.77           3.46
+      21       human          53.77          59.70           5.92
+      22       human          59.70          63.32           3.62
+      23       human          63.32          66.91           3.59
+      24       robot          52.64          61.70           9.06
+       1       human          66.91          72.84           5.92
+       2       robot          65.63          74.84           9.20
+       4       human          72.84          76.43           3.59
+       3       human          76.43          80.05           3.62
+                                         makespan:          80.05
+
+title: dynamic scheduling 7
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          17.35           7.36
+       7       robot          10.08          20.93          10.85
+       8       human          17.38          24.07           6.69
+       6       human          24.10          27.06           2.97
+       9       human          27.14          32.45           5.32
+      11       robot          29.38          39.17           9.79
+      12       human          32.47          35.38           2.90
+      10       human          35.40          39.65           4.25
+      17       human          39.70          45.15           5.45
+      19       human          45.18          50.57           5.39
+      20       robot          40.22          48.78           8.57
+      18       human          50.57          54.03           3.46
+      21       human          54.03          59.96           5.92
+      22       human          59.96          63.57           3.62
+      23       human          63.57          67.17           3.59
+      24       robot          52.90          61.96           9.06
+       1       human          67.17          73.09           5.92
+       2       robot          65.89          75.09           9.20
+       4       human          73.09          76.69           3.59
+       3       human          76.69          80.31           3.62
+                                         makespan:          80.31
+
+title: dynamic scheduling 8
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          17.35           7.36
+       7       robot          10.08          20.93          10.85
+       8       human          17.38          24.07           6.69
+       6       human          24.10          27.06           2.97
+       9       human          27.14          32.45           5.32
+      11       robot          29.38          39.17           9.79
+      12       human          32.47          35.38           2.90
+      10       human          35.40          39.65           4.25
+      17       human          39.70          45.15           5.45
+      19       human          45.18          50.61           5.44
+      20       robot          40.22          50.18           9.96
+      18       human          50.64          53.19           2.55
+      21       human          53.25          58.88           5.62
+      22       human          58.91          64.34           5.43
+      24       robot          52.91          62.58           9.67
+      23       human          64.34          67.94           3.59
+       1       human          67.94          73.86           5.92
+       2       robot          66.66          75.86           9.20
+       4       human          73.86          77.45           3.59
+       3       human          77.45          81.07           3.62
+                                         makespan:          81.07
+
+title: dynamic scheduling 9
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          17.35           7.36
+       7       robot          10.08          20.93          10.85
+       8       human          17.38          24.07           6.69
+       6       human          24.10          27.06           2.97
+       9       human          27.14          32.45           5.32
+      11       robot          29.38          39.17           9.79
+      12       human          32.47          35.38           2.90
+      10       human          35.40          39.65           4.25
+      17       human          39.70          45.15           5.45
+      19       human          45.18          50.61           5.44
+      20       robot          40.22          50.18           9.96
+      18       human          50.64          53.19           2.55
+      21       human          53.25          58.88           5.62
+      22       human          58.91          63.23           4.31
+      24       robot          52.91          63.03          10.12
+      23       human          63.26          66.26           3.00
+       1       human          66.33          71.87           5.54
+       2       robot          66.71          75.91           9.20
+       4       human          71.90          77.29           5.39
+       3       human          77.29          80.91           3.62
+                                         makespan:          80.91
+
+title: final timeline
+ task ID       agent     start_time    finish_time       duration
+      14       human           0.00           4.30           4.30
+      15       robot           0.00           9.99           9.99
+      16       human           4.34           9.49           5.15
+       5       human           9.99          17.35           7.36
+       7       robot          10.08          20.93          10.85
+       8       human          17.38          24.07           6.69
+       6       human          24.10          27.06           2.97
+       9       human          27.14          32.45           5.32
+      11       robot          29.38          39.17           9.79
+      12       human          32.47          35.38           2.90
+      10       human          35.40          39.65           4.25
+      17       human          39.70          45.15           5.45
+      19       human          45.18          50.61           5.44
+      20       robot          40.22          50.18           9.96
+      18       human          50.64          53.19           2.55
+      21       human          53.25          58.88           5.62
+      22       human          58.91          63.23           4.31
+      24       robot          52.91          63.03          10.12
+      23       human          63.26          66.26           3.00
+       1       human          66.33          71.87           5.54
+       2       robot          66.71          76.34           9.63
+       4       human          71.90          76.13           4.23
+       3       human          76.15          78.80           2.64
+                                         makespan:          78.80
+
