@@ -367,7 +367,7 @@ python idle_time_analyzer.py --input-dir .
 
 ### `schedule.csv`
 
-**正式實驗的使用 schedule。**
+**正式實驗使用的 schedule。**
 
 ---
 
@@ -532,8 +532,18 @@ schedule_random.csv
 
 藉由隨機工時建立較多樣與較複雜的排程條件，用來評估：
 
-- VNS多次獨立求解結果的品質
+- VNS 多次獨立求解結果的品質
 - 收斂速度是否符合即時動態排程需求
+
+---
+
+## 7.3 `vns_convergence_replay_bundle`
+
+此資料夾保存論文分析階段，驗證特定案例之 VNS 於每次重新排程的收斂性資料。
+
+由於正式實驗執行時主要關注即時動態排程結果，並未額外保存每次 VNS 迭代過程的收斂資訊，因此於實驗完成後，利用已保存的實驗案例資料重新建立各次動態排程情境，以取得 VNS 求解過程中的收斂曲線。
+
+主要用途為觀察每次動態重新排程時 VNS 的搜尋收斂過程。
 
 ---
 
@@ -543,7 +553,7 @@ schedule_random.csv
 
 **HOI 感知結果的主要分析程式。**
 
-主要用來進行模型與辨識結果評估，並輸出各模型的偵測或辨識表現
+主要用來進行模型與辨識結果評估，並輸出各模型的偵測或辨識表現。
 
 ---
 
@@ -565,6 +575,9 @@ schedule_random.csv
 - 模型訓練
 - 資料蒐集
 - 測試與模型驗證
+
+- `HOI_test/`
+  - 為 HAR 方法架構下的人物互動辨識測試程式與相關資料。
 
 目前正式系統已不直接使用此方法，因此 `HAR/` 主要保留作為早期研究開發與方法測試紀錄。
 
@@ -877,11 +890,11 @@ MTM 標準時間查表
 
 | File | Purpose |
 | --- | --- |
-| `robot_task_waypoint.csv` | Robot 任務移動點位設定 |
-| `robot_task_time.txt` | Robot 執行時間紀錄 |
-| `robot_task_time.csv` | Robot 任務時間參數 |
+| `robot_task_waypoint.csv` | 機械手臂之任務移動點位設定 |
+| `robot_task_time.txt` | 機械手臂執行時間紀錄 |
+| `robot_task_time.csv` | 機械手臂任務時間參數 |
 | `robot_time_lookuptable.py` | 將 `robot_task_time.txt` 轉換為 CSV 格式 (`robot_task_time.csv`) |
-| `coord_for_robot.csv` | Robot 座標資訊 |
+| `coord_for_robot.csv` | 操作位置座標資訊 |
 
 ---
 
