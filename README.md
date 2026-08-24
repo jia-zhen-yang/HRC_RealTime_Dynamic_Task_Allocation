@@ -748,7 +748,22 @@ repository 目前不另外維護完整套件版本清單。
 
 正式實驗完成後，系統輸出的甘特圖存放於 `dynamic_gantt_outputs/`，其餘供後續分析與模擬使用的數據檔案則存放於 `dynamic_raw_data_outputs/`。
 
-`real_data_nores_simulation.py` 與 `batch_nores_sim_runner.py` 使用的真實實驗資料存放於 `data/`，此資料夾內容為由正式實驗輸出結果整理後的模擬輸入資料。
+## Experiment raw data
+
+`Experiment raw data/` 保存每位受試者於正式實驗過程中產生的完整原始資料，包含系統輸出的甘特圖、作業數據與失效事件。
+
+此資料夾主要用於保存實驗原始紀錄，方便後續進行個別受試者分析與資料追蹤。
+
+## Simulation Data
+
+`data/` 為由正式實驗輸出的資料整理後建立之模擬輸入資料。
+
+與 `Experiment raw data/` 不同：
+
+- `Experiment raw data/`：依受試者分類保存完整原始實驗資料。
+- `data/`：將不同受試者資料整理後集中存放，主要供離線模擬程式使用。
+
+`real_data_nores_simulation.py` 與 `batch_nores_sim_runner.py` 主要讀取 `data/` 中整理後的資料，以建立 benchmark 條件下的模擬結果。
 
 模擬結果依使用的工時資料分別存放：
 
@@ -759,7 +774,126 @@ repository 目前不另外維護完整套件版本清單。
 
 ---
 
-# 13. Legacy / Staging
+# 13. Standard Time Calculation
+
+`Standard Time Calculation/` 用於建立代理人工時參數，提供排程模型與模擬系統使用。
+
+本資料夾主要透過**動素分析與 MTM 標準時間估算方法**，依據任務動作組成、手部移動距離與操作位置，建立不同任務條件下的人員執行時間。
+
+## 13.1 Human Time Parameter Generation
+
+代理人工時參數建立流程如下：
+
+```text
+各任務之動素分析
+          ↓
+動作距離與位置資訊建立
+          ↓
+MTM 標準時間查表
+          ↓
+計算單一任務標準時間
+          ↓
+建立排程使用之人員工時參數
+```
+
+### `therblig_calculation.py`
+
+主要用於計算人員任務的標準時間。
+
+功能包含：
+
+- 讀取動素組成資料
+- 讀取人員操作位置座標
+- 計算手部移動距離
+- 根據動素類型進行時間查表
+- 轉換時間單位 TMU 至秒數
+- 輸出各任務標準時間
+
+計算流程：
+
+- 移動類動作（R / M）
+
+  - 根據起點與終點座標計算距離
+  - 對應至 MTM 距離級距
+  - 查詢對應時間
+
+- 其他固定動作
+
+  - 直接依 Therblig 類型查詢時間
+
+### `therblig_calculation.csv`
+
+定義各任務的動素組成。
+
+包含：
+
+- 任務名稱
+- 動作種類
+- 起點
+- 終點
+- 動作類型
+
+程式會依此資料切分任務並計算各任務時間。
+
+### `therblig_process_time.csv`
+
+動素時間查詢表。
+
+用於：
+
+- 根據動素類型取得基礎時間
+- 提供 MTM 時間換算依據
+
+### `coord_for_human.csv`
+
+人員操作位置座標資料。
+
+用於：
+
+- 計算手部移動距離
+- 提供動素中移動動作的空間資訊
+
+---
+
+## 13.2 Robot Time Parameter Generation
+
+除代理人工時外，本資料夾亦包含機械手臂任務時間量測工具，用於建立 Robot 任務時間參數。
+
+### `UR_multi_task_time.py`
+
+用於量測 UR3e 執行各項任務流程所需時間。
+
+主要功能：
+
+- 讀取機械手臂路徑點位（waypoint）
+- 產生 URScript
+- 控制 UR3e 執行 Pick & Place 任務
+- 接收機械手臂回傳任務完成時間
+- 輸出各任務實際執行時間
+
+### Robot Time Data
+
+相關資料：
+
+| File | Purpose |
+| --- | --- |
+| `robot_task_waypoint.csv` | Robot 任務移動點位設定 |
+| `robot_task_time.txt` | Robot 執行時間紀錄 |
+| `robot_task_time.csv` | Robot 任務時間參數 |
+| `robot_time_lookuptable.py` | 將 `robot_task_time.txt` 轉換為 CSV 格式 (`robot_task_time.csv`) |
+| `coord_for_robot.csv` | Robot 座標資訊 |
+
+---
+
+## 13.3 Execution
+
+人員標準時間計算：執行 `therblig_calculation.py`。
+
+Robot 任務時間量測：執行 `UR_multi_task_time.py`。
+
+---
+
+# 14. Legacy / Staging
 
 部分程式屬於早期開發、測試或已不再使用的舊系統。
 
@@ -787,7 +921,7 @@ UR_task_control_server.py
 
 ---
 
-# 14. Research Information
+# 15. Research Information
 
 **Research Title**
 
