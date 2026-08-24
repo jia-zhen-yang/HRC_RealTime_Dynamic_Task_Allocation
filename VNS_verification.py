@@ -585,23 +585,25 @@ if __name__ == "__main__":
     #     print_best_update=True,
     # )
 
-    best_schedule, best_cost = exhaustive_global_solution_by_unique_agent_sequences(
-        schedule,
-        P,
-        k_kits=6,                         # 改成 6 個 kit
-        robot_time_table=robot_time_table,
-        rebuild_P_each_candidate=False,   # 先不要每組都重建 P，速度較快
-        skip_all_robot_block=True,         # 排除每個 block 全 robot
-        max_eval_candidates=None,          # None 表示完整跑完，不限制候選數
-        print_best_update=True,
-    )
-
-    # best_schedule, best_cost = optimal_solution(
+    # 目前的窮舉方法
+    # best_schedule, best_cost = exhaustive_global_solution_by_unique_agent_sequences(
     #     schedule,
     #     P,
-    #     case_3=True,  # CASE_3:case_3=True
+    #     k_kits=6,                         # 改成 6 個 kit
     #     robot_time_table=robot_time_table,
+    #     rebuild_P_each_candidate=False,   # 先不要每組都重建 P，速度較快
+    #     skip_all_robot_block=True,         # 排除每個 block 全 robot
+    #     max_eval_candidates=None,          # None 表示完整跑完，不限制候選數
+    #     print_best_update=True,
     # )
+
+    # 用啟發式方法建立最佳解
+    best_schedule, best_cost = optimal_solution(
+        schedule,
+        P,
+        case_3=True,  # CASE_3:case_3=True
+        robot_time_table=robot_time_table,
+    )
 
     print("===================================")
     print(f"Optimal makespan : {best_cost:.3f}")

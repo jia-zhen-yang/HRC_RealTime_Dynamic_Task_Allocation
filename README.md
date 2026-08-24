@@ -24,7 +24,7 @@ Adaptation 適應性調整
         ↓
 Execution 作業執行
 ```
-![System Architecture](assets/system_architecture.png)
+![System Architecture](assets/system_architecture.jpg)
 
 系統於作業期間持續掌握：
 
@@ -586,7 +586,7 @@ schedule_random.csv
 
 主程式負責將作業資訊與控制需求傳送至 Robot 與 Unity / HoloLens 端。
 
-![Communication Architecture](assets/communication_architecture.png)
+![Communication Architecture](assets/communication_architecture.jpg)
 
 ---
 
@@ -633,7 +633,7 @@ schedule.csv
 ## Step 1 — Camera Setup
 
 1. 架設相機。
-2. 確認拍攝位置與角度能完整涵蓋作業區域。
+2. 確認拍攝位置與角度能涵蓋需辨識的作業區域。
 3. 視現場光線狀況調整電腦端 Camera Settings的參數
 4. 確認手部與物件於影像中皆可清楚辨識。
 
@@ -787,45 +787,7 @@ UR_task_control_server.py
 
 ---
 
-# 14. 實體操作與交接注意事項
-
-> 待實體交接時補充。
-
-此區後續可記錄：
-
-- 設備實際操作注意事項
-- 相機架設細節
-- HoloLens 操作
-- UR3e 操作
-- 工作站擺設
-- 常見錯誤與排除方式
-- 實驗開始前檢查事項
-
----
-
-# 15. Documentation
-
-研究背景、研究架構與更完整的技術交接內容請參考 Notion 交接文件。
-
-```text
-Notion：待補充
-```
-
-建議 Notion 主要保存：
-
-- 研究架構總覽
-- 系統模組說明
-- 程式與技術架構
-- 實驗操作方式
-- 實體設備交接注意事項
-
-GitHub README 則主要作為：
-
-> **程式 repository 的入口與導航文件。**
-
----
-
-# 16. Research Information
+# 14. Research Information
 
 **Research Title**
 
