@@ -14,7 +14,7 @@
 整體系統由四個模組形成持續循環的閉環架構：
 
 ```text
-Execution 作業執行
+Execution  作業執行
         ↓
 Monitoring 作業監控
         ↓
@@ -22,7 +22,7 @@ Perception 作業狀態感知
         ↓
 Adaptation 適應性調整
         ↓
-Execution 作業執行
+Execution  作業執行
 ```
 ![System Architecture](assets/system_architecture.jpg)
 
@@ -101,10 +101,10 @@ HRC_schedule_perception_main.py
 - 任務進度更新
 - HOI 判定
 - 失效事件偵測
-- 人員與 Robot 任務狀態管理
+- 人機任務狀態管理
 - 動態重新排程觸發
 - Unity / HoloLens 資訊更新
-- Robot 任務資訊傳遞
+- 機械手臂任務資訊傳遞
 - 實驗與失效紀錄輸出
 
 正式實驗開始前，應先完成 Robot 與 HoloLens / Unity 端的準備，再啟動此程式。
@@ -172,7 +172,7 @@ HRC_schedule_perception_main.py
 
 功能包含：
 
-- 接收主系統傳送之 Robot 任務
+- 接收主系統傳送之機械手臂任務
 - 控制 UR3e 執行對應取放流程
 - 控制末端夾爪
 - 回傳任務執行狀態
@@ -183,7 +183,7 @@ HRC_schedule_perception_main.py
 HRC_schedule_perception_main.py
 ```
 
-成功連線後，UR3e TCP 會回到初始位置，夾爪亦會進行開關測試，可藉此確認 Robot 控制與通訊是否正常。
+成功連線後，UR3e TCP 會回到初始位置，夾爪亦會進行開關測試，可藉此確認機械手臂控制與通訊是否正常。
 
 ---
 
@@ -449,7 +449,7 @@ VNS_test.py
 
 # 6. Scheduling Cases
 
-排程模型中設計 Case 1、Case 2、Case 3，用來描述不同程度的 Kit 間與 Robot 任務銜接條件。
+排程模型中設計 Case 1、Case 2、Case 3，用來描述不同程度的 Kit 間與機械手臂任務銜接條件。
 
 > **目前正式研究情境採用 Case 3，因此專案中的排程相關參數皆以 Case 3 作為預設設定。除非針對 Case 1 或 Case 2 進行特定比較或測試，否則請勿任意修改 Case 相關參數，以避免排程邏輯與正式實驗情境不一致。**
 
@@ -468,9 +468,9 @@ VNS_test.py
 
 ## Case 2
 
-允許同一 Kit 中，Robot 在 Kit Box 尚未完成更換時提前進行部分 Pick & Place 流程。
+允許同一 Kit 中，機械手臂在 Kit Box 尚未完成更換時提前進行部分 Pick & Place 流程。
 
-Robot 可先進行 Pick 與 Move，但最終 Place 仍必須等待對應 Kit Box 更換完成。
+機械手臂可先進行 Pick 與 Move，但最終 Place 仍必須等待對應 Kit Box 更換完成。
 
 Case 2 增加 Kit 內部的人機作業重疊，但不同 Kit 之間仍未完全串接。
 
@@ -480,19 +480,19 @@ Case 2 增加 Kit 內部的人機作業重疊，但不同 Kit 之間仍未完全
 
 正式研究主要採用的作業邏輯。
 
-除了保留 Case 2 的 Robot 提前 Pick / Move 規則外，進一步允許：
+除了保留 Case 2 的機械手臂提前 Pick / Move 規則外，進一步允許：
 
 > 當前一 Kit 的最後一項任務開始後，Robot 即可提前準備下一 Kit 所需的物料。
 
 因此不同 Kit 之間可形成較連續的作業銜接。
 
-但下一 Kit 的 Robot 最終 Place 動作仍必須等待該 Kit 的 Kit Box 更換完成。
+但下一 Kit 的機械手臂最終 Place 動作仍必須等待該 Kit 的 Kit Box 更換完成。
 
 ---
 
 ## Comparison of Scheduling Cases
 
-| Case   | Robot 可於 Replace 完成前先 Pick / Move | 下一 Kit 可提前準備 | 特性                 |
+| Case   | 機械手臂可於 Replace 完成前先 Pick / Move | 下一 Kit 可提前準備 | 特性                 |
 | ------ | --------------------------------: | -----------: | ------------------ |
 | Case 1 |                                No |           No | Kit 間完全獨立          |
 | Case 2 |                               Yes |           No | Kit 內部可重疊          |
@@ -663,12 +663,12 @@ schedule.csv
 Robot Control/UR_task_control_server.py
 ```
 
-5. 確認程式與 Robot 連線成功。
+5. 確認程式與機械手臂連線成功。
 6. 成功連線後：
    - UR3e TCP 回到初始位置
    - 夾爪執行開 / 關測試
 
-若以上初始化動作正常，即代表 Robot 控制端可正常使用。
+若以上初始化動作正常，即代表機械手臂控制端可正常使用。
 
 ---
 
@@ -695,7 +695,7 @@ HRC_schedule_perception_main.py
 
 主程式初始化期間，可同步進行 HoloLens 空間定位。
 
-1. 將指定 QR Code 放置於預先定義的 Robot 座標位置。
+1. 將指定 QR Code 放置於預先定義的機械手臂座標系位置。
 2. 使用 HoloLens 進行 QR Code 定位。
 3. 畫面出現對應按鈕與倒數畫面後，代表定位完成。
 
@@ -870,7 +870,7 @@ MTM 標準時間查表
 
 ## 13.2 Robot Time Parameter Generation
 
-除代理人工時外，本資料夾亦包含機械手臂任務時間量測工具，用於建立 Robot 任務時間參數。
+除代理人工時外，本資料夾亦包含機械手臂任務時間量測工具，用於建立其任務時間參數。
 
 ### `UR_multi_task_time.py`
 
@@ -902,7 +902,7 @@ MTM 標準時間查表
 
 人員標準時間計算：執行 `therblig_calculation.py`。
 
-Robot 任務時間量測：執行 `UR_multi_task_time.py`。
+機械手臂任務時間量測：執行 `UR_multi_task_time.py`。
 
 ---
 
@@ -912,7 +912,7 @@ Robot 任務時間量測：執行 `UR_multi_task_time.py`。
 
 ## `UR_task_control_client.py`
 
-早期 Robot 通訊架構。
+早期機械手臂通訊架構。
 
 目前正式實驗使用：
 
