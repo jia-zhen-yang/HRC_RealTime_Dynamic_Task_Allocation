@@ -149,6 +149,13 @@ HRC_schedule_perception_main.py
 
 **正式實驗使用的人員－物件互動（Human-Object Interaction, HOI）判定模組。**
 
+此模組整合物件辨識與手部關鍵點資訊，用於判定人員目前正在操作的物件。
+
+其中：
+
+- 物件辨識模型採用 YOLO11，並已於 Ultralytics 平台完成模型訓練。
+- 手部關鍵點擷取採用 MediaPipe Hands。
+
 主要依據：
 
 - 手部位置
@@ -156,7 +163,7 @@ HRC_schedule_perception_main.py
 - 物件類別與位置
 - 手部與物件間的相對距離
 
-判定人員目前正在操作的物件。
+判定人員目前正在操作的物件，並提供後續失效判定與動態排程所需的人員作業狀態資訊。
 
 ---
 
